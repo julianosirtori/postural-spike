@@ -1,0 +1,47 @@
+{
+  "clinicalReport": {
+    "summary": "A avaliação postural na vista anterior evidencia leve assimetria de cintura escapular (3.2°, classificação leve, referência 0°–2°) e alinhamento pélvico dentro dos parâmetros de normalidade (1.1°). O padrão de elevação unilateral de ombro é compatível com tensão muscular assimétrica na região de trapézio.",
+    "findings": [
+      {
+        "area": "Cintura escapular",
+        "observation": "Alinhamento de ombros com desvio de 3.2° em relação à horizontal (referência: 0°–2°). Classificação: leve.",
+        "severity": "mild"
+      },
+      {
+        "area": "Cintura pélvica",
+        "observation": "Alinhamento de quadril com desvio de 1.1° em relação à horizontal (referência: 0°–2°). Dentro da normalidade.",
+        "severity": "normal"
+      }
+    ],
+    "hypotheses": [
+      "O padrão de elevação unilateral de ombro pode sugerir hipertonia de trapézio superior ipsilateral, possivelmente relacionada à postura de trabalho prolongada em notebook",
+      "A assimetria escapular isolada, sem comprometimento pélvico associado, sugere componente local cervical/torácico sem influência de cadeia ascendente"
+    ],
+    "suggestedNextSteps": [
+      "Avaliar mobilidade cervical ativa e passiva",
+      "Investigar encurtamento de trapézio superior e elevador da escápula bilateralmente",
+      "Considerar avaliação ergonômica do posto de trabalho",
+      "Reavaliar em 4-6 semanas após intervenção para comparação evolutiva"
+    ]
+  },
+  "patientReport": {
+    "summary": "Fizemos uma avaliação da sua postura usando tecnologia de análise de imagem. Os resultados mostram que sua coluna e quadril estão bem alinhados, com apenas uma pequena diferença na altura dos ombros que pode estar relacionada à sua rotina de trabalho.",
+    "mainPoints": [
+      "Seus ombros apresentam uma leve diferença de altura — isso é comum em quem trabalha muitas horas no computador",
+      "Seu quadril está bem alinhado, o que é um bom sinal",
+      "A diferença nos ombros é classificada como leve e pode melhorar com orientações posturais"
+    ],
+    "encouragement": "Parabéns por buscar cuidar da sua postura! Com as orientações do seu fisioterapeuta e pequenos ajustes na sua rotina, você pode ter ótimos resultados."
+  },
+  "disclaimers": [
+    "Esta análise é um auxílio tecnológico e não substitui a avaliação presencial completa por um profissional de fisioterapia.",
+    "Os resultados são baseados em medições de uma única imagem e devem ser interpretados em conjunto com o exame clínico completo."
+  ],
+  "meta": {
+    "model": "claude-sonnet-4-5-20250514",
+    "promptVersion": "v1",
+    "processingMs": 4823,
+    "inputTokens": 1847,
+    "outputTokens": 892
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "prumo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm -w apps/api run dev",
+    "dev:web": "npm -w apps/web run dev",
+    "test": "npm -w packages/postural-core run test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
